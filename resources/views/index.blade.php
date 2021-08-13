@@ -50,12 +50,13 @@
             <nav class="site-navigation text-right text-md-center" role="navigation">
               <ul class="site-menu js-clone-nav d-none d-lg-block">
                 <li class="active"><a href="index.html">Home</a></li>
-                <li><a href="#">Store</a></li>
+                <li><a href="{{route('productos')}}">Store</a></li>
                 <li class="has-children">
                   <a href="#">Altas</a>
                   <ul class="dropdown">
                     <li><a href="{{route('vendedores')}}">Vendedores</a></li>
                     <li><a href="{{route('clientes')}}">Clientes</a></li>
+                    <li><a href="{{route('farmaceuticos')}}">Medicamentos</a></li>
                     <!-- <li class="has-children">
                       <a href="#">Vitamins</a>
                       <ul class="dropdown">
@@ -96,10 +97,10 @@
           </div>
           <div class="icons">
             <a href="#" class="icons-btn d-inline-block js-search-open"><span class="icon-search"></span></a>
-            <a href="cart.html" class="icons-btn d-inline-block bag">
+            <!-- <a href="cart.html" class="icons-btn d-inline-block bag">
               <span class="icon-shopping-bag"></span>
               <span class="number">2</span>
-            </a>
+            </a> -->
             <a href="#" class="site-menu-toggle js-menu-toggle ml-3 d-inline-block d-lg-none"><span
                 class="icon-menu"></span></a>
           </div>
